@@ -10,7 +10,7 @@ from datetime import timedelta
 
 import requests
 from bs4 import BeautifulSoup
-st.set_page_config(layout="wide", theme="dark", theme_plotly="none")
+st.set_page_config(layout="wide")
 try:
     excel = pd.read_excel('LIST-VN.xlsx')
     VN_stock_list = excel['Mã VN']
